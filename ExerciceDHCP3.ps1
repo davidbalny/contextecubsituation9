@@ -11,11 +11,11 @@
 # Création des boites de saisie en visualbasic => Input Box 
 $dhcpserver = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer le nom du serveur DHCP", "Nom du serveur DHCP", "$env:computername")
 $scopename = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer le nom de l'étendue DHCP (scope)", "Nom de l'étendue DHCP", "")
-$scopeID = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer l'adresse réseau de l'étendue DHCP", "Etendue DHCP", "130.")
-$startrange = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer la première adresse à distribuer", "Première adresse à distribuée", "130.")
-$endrange = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer la dernière adresse à distribuer", "Dernière adresse à distribuer", "130.")
-$subnetmask = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer le masque sous-réseau", "masque sous-réseau", "255.255.255.0")
-$router = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer l'adresse de passerelle", "Adresse de passerelle", "130.")
+$scopeID = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer l'adresse réseau de l'étendue DHCP", "Etendue DHCP", "192.168.8.")
+$startrange = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer la première adresse à distribuer", "Première adresse à distribuée", "192.168.8.")
+$endrange = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer la dernière adresse à distribuer", "Dernière adresse à distribuer", "192.168.8.")
+$subnetmask = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer le masque sous-réseau", "masque sous-réseau", "255.255.255.")
+$router = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer l'adresse de passerelle", "Adresse de passerelle", "192.168.8.")
 $NomZoneDns = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer le nom du domaine", "Nom du domaine", "")
 $IPServeurDns = [Microsoft.VisualBasic.Interaction]::InputBox("Entrer l'adresse du serveur DNS", "Adresse du serveur DNS", "")
 
