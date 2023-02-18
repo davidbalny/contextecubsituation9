@@ -7,6 +7,7 @@
 
 # Affectation des variables
 Write-Host "Voici le nom du serveur DHCP : $env:computername"
+$dhcpserver = $env:computername
 $scopename = Read-Host "Entrer le nom de l'étendue DHCP (scope)"
 $scopeID = Read-Host "Entrer l'adresse réseau de l'étendue DHCP"
 $startrange = Read-Host "Entrer la première adresse à distribuer"
